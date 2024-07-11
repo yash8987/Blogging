@@ -48,7 +48,7 @@ const BlogPage = () => {
           Back
         </button>
       </div>
-      <div className='w-[40%] m-auto'>
+      <div className='w-screen sm:w-[50vw] m-auto mb-[70px]'>
         {
           loading ? (<Spinner />) : 
           (

@@ -6,8 +6,8 @@ const Pagination = () => {
   const {totalPages,page,handlePageChange} = useContext(AppContext);
 
   return (
-    <div className='w-full border-[2px] border-x-black fixed bottom-0 bg-white'>
-      <div className='flex justify-evenly p-2'>
+    <div className='w-screen border-[2px] border-x-black fixed bottom-0 bg-white'>
+      <div className='flex justify-evenly p-2 items-center'>
         { page > 1 &&
           <button className='text-xl border-[2px] p-[3px] rounded-lg' onClick={()=>{handlePageChange(page-1)}}>Previous</button>
         }

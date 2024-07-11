@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div>
       <Header />
-      <div className='my-[70px]'>
+      <div className='mt-20 flex justify-center items-center'>
         <Blogs />
       </div>
       <Pagination />
